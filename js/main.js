@@ -27,7 +27,6 @@ function appendData(data) {
 
 $(document).ready(function() {
   $(function() {
-    $("div").show(); // select the first ten
     $("#load").click(function(e) {
       $("div:hidden").show();
     });
